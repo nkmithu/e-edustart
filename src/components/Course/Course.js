@@ -14,7 +14,6 @@ const Course = () => {
     const [cart,
         setCart] = useState([]);
     const handleAddCourse = (course) => {
-        //  console.log("Course Added", course);
         const newCart = [
             ...cart,
             course

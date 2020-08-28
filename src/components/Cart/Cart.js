@@ -8,10 +8,9 @@ const Cart = (props) => {
 
     return (
         <Card className="mt-3 p-2 cart-card">
-            <p>Courses ordered:{cart.length}</p>
-            <h4>Total:${total}
+            <p>Courses ordered: {cart.length}</p>
+            <h4>Total: ${total}
             </h4>
-            <p>name: {cart.name}</p>
         </Card>
     );
 };
