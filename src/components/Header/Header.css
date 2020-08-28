@@ -1,0 +1,11 @@
+header{
+    height: 100vh;
+}
+header img{
+    height: 20rem !important;
+}
+@media screen and (max-width: 991px){
+    header{
+        height: auto;
+    }
+}
